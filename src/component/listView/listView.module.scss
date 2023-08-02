@@ -1,0 +1,73 @@
+.listContainer {
+  width: 100%;
+  padding: 10px;
+  padding-left: 0px;
+  height: 100%;
+  width: 30%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 10px;
+
+  .listItem {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: solid 1px var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    cursor: pointer;
+
+    .avatar {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background-color: var(--accent);
+      color: #fff;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-right: 20px;
+    }
+    .cardDetails {
+      font-size: 15px;
+      color: var(--text);
+      .senderDetails {
+        display: flex;
+        flex-direction: column;
+      }
+      .description {
+        margin-top: 10px;
+      }
+      .timestamp {
+        margin-top: 10px;
+        > span:first-child {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    &:active {
+      background-color: var(--read-background) !important;
+    }
+    
+  }
+
+}
+
+.active {
+  border: solid 2px var(--accent) !important
+}
+
+.read {
+  background-color: var(--read-background) !important;
+}
+
+.fullWidth {
+  width: 100%;
+}

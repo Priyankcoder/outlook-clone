@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0px !important;
+}
+
+:root {
+  --accent: #e54065;
+  --backgroud: #f4f5f9;
+  --border: #cfd2dc;
+  --text: #636363;
+  --filter-button: #e1e4ea;
+  --read-background: #f2f2f2;
+}
+
+* {
+  box-sizing: border-box;
+}

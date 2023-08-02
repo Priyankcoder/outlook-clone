@@ -1,0 +1,25 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  padding-top: 0px;
+  background-color: #f4f5f9; 
+}
+
+.emailContainer {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  width: 100%;
+  // margin-top: 64px;
+}
+
+::-webkit-scrollbar {
+  width: 4px; 
+}
+
+// for Firefox add this class as well
+.thin_scroll{
+  scrollbar-width: auto; // auto | thin | none | <length>;
+}
+
